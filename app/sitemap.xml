@@ -3,10 +3,10 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-      <loc>http://sbctechpartners.com/index.html</loc>
-      <loc>http://sbctechpartners.com/about.html</loc>
-      <loc>http://sbctechpartners.com/partners.html</loc>
-      <loc>http://sbctechpartners.com/vehicles.html</loc>
-      <loc>http://sbctechpartners.com/careers.html</loc>
+      <loc>http://www.proridium.com/index.html</loc>
+      <loc>http://www.proridium.com/products.html</loc>
+      <loc>http://www.proridium.com/services.html</loc>
+      <loc>http://www.proridium.com/partners.html</loc>
+      <loc>http://www.proridium.com/careers.html</loc>
   </url>
 </urlset>
