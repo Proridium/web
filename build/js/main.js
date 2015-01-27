@@ -3,7 +3,7 @@
 function resizeMe() {
    var article = document.getElementsByTagName("article").item(0);
    var height = window.innerHeight;
-   article.style.height = (height - 233) + 'px';
+   article.style.height = (height - 197) + 'px';
 }
 
 window.onload = function() {
@@ -20,8 +20,8 @@ window.onload = function() {
       case 'careers':
          document.getElementById("_careers").classList.add("active");
          break;
-      case 'customers':
-         document.getElementById("_customers").classList.add("active");
+      case 'products':
+         document.getElementById("_products").classList.add("active");
          break;
    }
    resizeMe();

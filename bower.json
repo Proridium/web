@@ -1,20 +1,22 @@
 {
-   "name": "web",
-   "version": "0.1",
-   "homepage": "https://github.com/SBCTechPartners/web",
-   "authors": [
-      "Steve Hartzog <shartzog@gmail.com>"
-   ],
-   "license": "MIT",
-   "private": true,
-   "ignore": [
-      "**/.*",
-      "node_modules",
-      "bower_components",
-      "test",
-      "tests"
-   ],
-   "dependencies": {
-      "bootstrap": "~3.1.1"
-   }
+  "name": "web",
+  "version": "0.1",
+  "homepage": "https://github.com/Proridium/web",
+  "authors": [
+    "Steve Hartzog <shartzog@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "font-awesome": "~4.3.0",
+    "jquery": "~2.1.3"
+  }
 }
