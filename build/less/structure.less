@@ -1,0 +1,104 @@
+/*--------------------------------
+	Structure
+--------------------------------*/
+@base-background: #e8e8e8;
+@base-font: Arial, Helvetica, FreeSans, sans-serif; //"Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+@base-fontSize: 10pt;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: @base-background;
+  //  background-image:url(images/725_body.gif);
+//  background-position:top center;
+//  background-repeat:no-repeat;
+  color:#919090;
+  font-family: @base-font;
+  font-size:@base-fontSize;
+}
+
+textarea,
+input[type="text"] { border:solid 1px #c2c1c1; }
+
+a:link { color:#4e7bd6; }
+a:visited { color:#4e7bd6; }
+a:hover { color:#3460b9; }
+
+.header {
+  color:#919090;
+  height:110px;
+  padding-top: 0;
+  display:block;
+}
+
+article {
+  padding-top:2%;
+  padding-left:2%;
+  padding-right:2%;
+  padding-bottom:0%;
+  background-color:#ffffff;
+  border:solid 1px #c2c1c1;
+  border-top:none;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  position: relative;
+  display:inline-block;
+}
+
+footer {
+  display:block;
+  height:50px;
+  width: 100%;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 1%;
+  padding-bottom: 0;
+  margin-top:0;
+  background:#eaeaea; /* old browsers */
+  background:-moz-linear-gradient(top, #eaeaea 0%, #d6d6d6 100%); /* firefox */
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #eaeaea), color-stop(100%, #d6d6d6)); /* Chrome,Safari4+ */
+  background:-webkit-linear-gradient(top, #eaeaea 0%, #d6d6d6 100%); /* Chrome10+,Safari5.1+ */
+//  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d6d6d6', GradientType=0 ); /* ie */
+  background:linear-gradient(top, #eaeaea 0%, #d6d6d6 100%); /* W3C */
+  color:#929191;
+  text-shadow:1px 1px 0 #f5f5f5;
+  div {
+    font-size: .7em;
+    display: inline-block;
+    width:30%;
+    vertical-align: middle;
+  }
+  :nth-child(2) {
+    font-size: 1.2em;
+    text-align: center;
+    font-style: italic;
+    width:38%;
+  }
+  div:nth-last-of-type(1) {
+    text-align: right;
+    width:30%;
+  }
+}
+.footerTable {
+  padding: 0px 15px 0px 15px;
+  width:100%;
+}
+
+.wrapper {
+  padding-top: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 0%;
+}
+
+.embed {
+  float:right;
+  margin-left:5px;
+  margin-top:23px;
+}
+
+.leader {
+  float:left;
+}
